@@ -29,7 +29,7 @@ I mangel på ledige fysiklokaler anvender denne inspirationsfase en række simul
 
   I denne runde skal I koncentrere jer om én af forsøgsopstillingerne/simuleringerne. I skal sørge for, at der er en eller flere fysiske størrelser, der kan måles på, og som kan ændres direkte eller indirekte igennem simuleringen. Det kan f.eks. være vinkler, farver, udsving, tider og mønstre.
 
-  I skal aflevere en skriftlig sproglig beskrivelse af, hvad der sker med lyset/bølgerne undervejs i jeres valgte forsøg/simulering. Ingen brug af bøger eller internetkilder, kun jeres egne sproglige beskrivelser. Det er tilladt at tage screenshots af simuleringerne og tegne og forklare ud fra dem. *Jeres beskrivelser skal afleveres på lectio under den tilhørende opgave i pdf-format.*
+  I skal aflevere en skriftlig sproglig beskrivelse af, hvad der sker med lyset/bølgerne undervejs i jeres valgte forsøg/simulering. Ingen brug af bøger eller internetkilder, kun jeres egne sproglige beskrivelser. Det er tilladt at tage screenshots af simuleringerne og tegne og forklare ud fra dem. *Jeres beskrivelser skal afleveres på skolens it-platform under den tilhørende opgave i pdf-format.*
 #+reveal_html: </div>
 #+reveal_html: </div>
 #+reveal_html: </div>
