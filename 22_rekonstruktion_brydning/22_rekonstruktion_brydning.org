@@ -80,8 +80,6 @@ Lyset bevæger sig fra et materiale, luft, til et andet materiale, glas.
 
 #+latex: \vfill
 
-
-
 * Totalrefleksion
 
 #+latex: \begin{minipage}{0.3\linewidth}
@@ -95,15 +93,6 @@ Lyset bevæger sig fra et materiale, luft, til et andet materiale, glas.
 #+latex: \end{minipage}
 
 
-# [[file:img/totalrefleksion_1.png]]  
-# [[file:img/totalrefleksion_2.png]]
-
-# - Forklar med et par sætninger, hvornår totalrefleksion kan opstå.
-  
-# \vfill
-
-# - Angiv hvad grænsevinklen for totalrefleksion er på figuren.
-  
-# \vfill
+#+latex: \vfill
 
 
