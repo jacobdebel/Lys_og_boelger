@@ -1,0 +1,13 @@
+Dette repo indeholder en række præsentationer og diverse noter samt opgaver om lys og bølger til fysikundervisningen i gymnasiet.
+
+Der er linket til noter, opgaver etc. fra præsentationerne.
+
+Her er en liste over selve præsentationerne:
+
+- https://jacobdebel.github.io/Lys_og_boelger/00_introduktion/
+- https://jacobdebel.github.io/Lys_og_boelger/10_inspiration_eksperimenter/
+- https://jacobdebel.github.io/Lys_og_boelger/11_inspiration_simuleringer/
+- https://jacobdebel.github.io/Lys_og_boelger/20_rekonstruktion/
+- https://jacobdebel.github.io/Lys_og_boelger/30_transformation/
+- https://jacobdebel.github.io/Lys_og_boelger/40_konstruktion/
+- https://jacobdebel.github.io/Lys_og_boelger/50_refleksion/
