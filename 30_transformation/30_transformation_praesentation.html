@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8"/>
+<title>Lys og bølger</title>
+<meta name="author" content="Jacob Debel"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h2>Lys og bølger</h2><h3>Transformation</h3><h4>Jacob Debel</h4><h4>Fysik C &amp; B</h4>
+</section>
+
+
+<section>
+<section id="slide-org0488634" data-background="">
+<h2 id="org0488634">Præsentation af formler</h2>
+<div class="outline-text-2" id="text-org0488634">
+</div>
+</section>
+<section id="slide-orge6608b2" data-background="">
+<h3 id="orge6608b2">Bølger generelt</h3>
+<div>
+\begin{align*}
+f &= \frac{1}{T} \\
+v &= \lambda \cdot f = \frac{\lambda}{T} \\
+c &= \lambda \cdot f = \frac{\lambda}{T} \quad \text{(I vakuum)}
+\end{align*}
+
+</div>
+
+</section>
+<section id="slide-org5a1c09c" data-background="">
+<h3 id="org5a1c09c">Brydning</h3>
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<div style="font-size: 80%;">
+<div>
+\begin{align*}
+c &= 3 \cdot 10^8 m/s \\
+n_1 &= \frac{c}{v_1} \\
+n_{12} &= \frac{n_2}{n_1}\\
+\frac{\sin(i)}{\sin(b)} &= n_{12}=\frac{n_2}{n_1} = \frac{v_1}{v_2}
+\end{align*}
+
+</div>
+</div>
+</div>
+
+<div>
+
+<div id="orge97b3b2" class="figure">
+<p><img src="./img/laser_luft_glas_i_og_b.png" alt="laser_luft_glas_i_og_b.png" />
+</p>
+</div>
+</div>
+</div>
+
+</section>
+<section id="slide-org869924f" data-background="">
+<h3 id="org869924f">Det optiske gitter</h3>
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<div style="font-size: 80%;">
+<div>
+\begin{align*}
+\sin(\phi_n) &= \frac{n \cdot \lambda}{d} \\
+\tan(\phi_n) &= \frac{x}{L} \\
+d &= \frac{1}{\text{antal linjer pr. mm}} 
+\end{align*}
+
+</div>
+</div>
+</div>
+
+<div>
+
+<div id="org05beabb" class="figure">
+<p><img src="./img/gitterligningen.png" alt="gitterligningen.png" />
+</p>
+</div>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org0aaf4c1" data-background="">
+<h2 id="org0aaf4c1">Opgaver</h2>
+<div class="outline-text-2" id="text-org0aaf4c1">
+</div>
+</section>
+<section id="slide-orgc0aa469" data-background="">
+<h3 id="orgc0aa469">Simple træningsopgaver</h3>
+<ul>
+<li>Find filen <a href="../31_transformation_opgaver/31_transformation_opgaver.pdf">31_transformation_opgaver.pdf</a>.</li>
+<li>Den indeholder 13 opgaver omkring lys og bølger.</li>
+<li>Der er en facitliste sidst i dokumentet.</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'slide',
+transitionSpeed: 'default',
+slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true,
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>

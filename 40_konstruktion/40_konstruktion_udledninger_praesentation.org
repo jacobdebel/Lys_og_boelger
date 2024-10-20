@@ -1,0 +1,114 @@
+#+title: Lys og bølger
+#+subtitle: Konstruktion
+#+author: Jacob Debel
+#+date: Fysik C & B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Udledning af formler
+
+* Brydningsloven aka Snells lov
+
+** Hvad ved vi?
+
+[[./img/laser_luft_glas_i_og_b.png]]
+   
+\begin{align*}
+\boxed{\frac{\sin(i)}{\sin(b)} = n_{12}=\frac{n_2}{n_1} = \frac{v_1}{v_2}}
+\end{align*}
+
+** Hvordan kommer vi derhen?
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+\begin{align*}
+\Delta ABC: \sin (i) = \frac{3 \lambda_1}{\left| AB \right|} \\
+\Delta ABD: \sin (b) = \frac{3 \lambda_2}{\left| AB \right|} 
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/brydning.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+#+reveal: split:t
+
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+\begin{align*}
+\frac{\Delta ABC}{\Delta ABD} : \frac{\sin (i)}{\sin (b)} &= \frac{\frac{3 \lambda_1}{\left| AB \right|}}{\frac{3\lambda_2}{\left| AB \right|}} \\
+\frac{\sin (i)}{\sin (b)} &= \frac{\lambda_1}{\lambda_2}
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/brydning.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+#+reveal: split:t
+
+\begin{align*}
+\frac{\sin (i)}{\sin (b)} &= \frac{\lambda_1}{\lambda_2} \\
+v_1 &= \lambda_1 \cdot f \\
+v_2 &= \lambda_2 \cdot f \\
+\frac{\sin (i)}{\sin (b)} &= \frac{v_1}{v_2} 
+\end{align*}
+
+#+reveal: split:t
+
+\begin{align*}
+\frac{\sin (i)}{\sin (b)} &= \frac{v_1}{v_2} \\
+n_1 &= \frac{c}{v_1}\to v_1 = \frac{c}{n_1} \\
+n_2 &= \frac{c}{v_2}\to v_2 = \frac{c}{n_2} \\
+\frac{\sin (i)}{\sin (b)} &= \frac{\frac{c}{n_1}}{\frac{c}{n_2}} = \frac{n_2}{n_1}
+\end{align*}
+* Gitterligningen
+
+** Hvad ved vi?
+
+#+attr_html: :width 70%
+[[./img/gitterligningen.png]]
+
+\begin{align*}
+\boxed{\sin(\phi_n) = \frac{n \cdot \lambda}{d}}
+\end{align*}
+
+** Hvordan kommer vi derhen?
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+[[./img/gitterligning_udledning_1.png]]
+
+[[./img/gitterligning_udledning_2.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+\begin{align*}
+\sin \left( \phi_n \right) = \frac{n \cdot \lambda}{d}
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+   
+* Avancerede opgaver
+- Nu skal der tænkes, mens der regnes!
+- Arbejd med opgaverne i [[../41_konstruktion_opgaver/41_konstruktion_opgaver.pdf][41_konstruktion_opgaver.pdf]].
+* Udled selv formler
+** Brydningsloven (Snells lov)
+#+attr_html: :height 500
+[[../42_konstruktion_brydning/42_Konstruktion_brydning.pdf][file:img/brydningsloven_udled.png]]
+
+** Gitterligningen
+#+attr_html: :height 500
+[[../43_konstruktion_gitter/43_Konstruktion_gitter.pdf][file:img/gitterligningen_udled.png]]

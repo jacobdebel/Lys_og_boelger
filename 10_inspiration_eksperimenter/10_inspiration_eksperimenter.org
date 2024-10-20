@@ -1,0 +1,26 @@
+#+title: Lys og bølger
+#+subtitle: Inspiration - Eksperimenter 
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+I skal undersøge synligt lys. I får udleveret lyskilder og diverse forsøgsudstyr. Jeres opgave er at eksperimentere med forskellige forsøgsopstillinger, som I selv finder på.
+
+* Lys og optiske fænomener
+
+- Det gælder om at lege. I skal afprøve forskellige forsøgsopstillinger og observere, hvad der sker med lysstrålerne igennem deres passage i de forskellige opstillinger. Dette får I ca. 45 minutter til.
+
+- I anden lektion udvælger I den mest interessante forsøgsopstilling.
+    I skal sørge for, at der er nogle fysiske størrelser, som I kan måle på. Det kan f.eks. være vinkler, farver, udsving og tider.
+
+- I skal beskrive, hvad der sker med lyset undervejs i jeres valgte forsøg. *Dette skal I aflevere skriftligt i den tilhørende opgave på skolens it-platform*. Det er tilladt at skrive og tegne i hånden, og så aflevere et billede, som er konverteret til pdf.

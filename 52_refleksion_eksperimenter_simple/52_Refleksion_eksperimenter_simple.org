@@ -1,0 +1,163 @@
+#+title: Lys og bølger
+#+subtitle: Refleksion - Eksperimenter
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+Nu er I nået til refleksionsfasen, som er den sidste del i forløbet. I skulle gerne være eksperter inden for lysets brydning og det optiske gitter, både hvad angår kendskab og anvendelse af de tilhørende fagudtryk og matematiske udledninger af brydningsloven og gitterligningen. Jeres nye viden skal i bruge til at udføre eksperimenter.
+
+* Udførelse af eksperimenter
+
+- I får ca. 1.5 time i laboratoriet til at udføre jeres eksperimenter.
+
+- Husk at notere alle relevante målinger.
+
+- Husk at tage billeder af jeres forsøgsstillinger, som kan bruges I jeres rapport.
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* Afrapportering
+
+I skal udarbejde en fysikrapport over jeres udførte eksperimenter. Afleveringsmappen ligger allerede på skolens it-platform. Husk følgende afsnit i rapporten:
+
+- *Forord (I kan også kalde det formål)*
+
+  I skal skrive, hvad formålet med eksperimenterne er, og I skal opskrive hypoteser, hvis I har sådanne.
+
+- *Teori*
+
+  Her skal I have udledninger og forklaringer af gitterligningen og brydningsloven med.
+
+- *Forsøgsbeskrivelse*
+
+  Her skal I omskrive jeres fremgangsmåde til en forsøgsbeskrivelse. I skal skrive, hvad I faktisk har gjort i laboratoriet. Skriv det på punktform, men med hele sætninger. Indsæt også billeder af jeres opstillinger, eller hvis I ser noget, som er vigtigt for eksperimenterne.
+
+- *Resultater*
+
+  Her noteres eksperimentets "rå" data. Det kan være målte værdier sat op i en tabel, eller en graf over de samme værdier, hvis der er mange datapunkter. Det kan også være tale om billeder taget under eksperimentets udførelse, som senere skal bearbejdes.
+
+- *Databehandling*
+
+  Det er i dette afsnit, at alle beregninger på baggrund af data fra resultatafsnittet udføres.
+
+- *Diskussion*
+
+  Her sammenholdes de opnåede resultater af beregningerne med hypotesen fra formålsafsnittet. Det er også her, at der er plads til at fortolke på eksperimenterne og komme ind på eventuelle fejlkilder og usikkerheder. (Hvis der er tale om simple fejlkilder, så skal de ikke stå her. Så skal I udføre eksperimentet igen.)
+  
+- *Konklusion*
+        
+    Her skal hypotesen, resultater af beregninger samt diskussionen skrives sammen. Hvis man i hypotesen vil bestemme en talværdi for en bestemt fysisk størrelse, så skal tallet også være med her i konklusionen sammen med en relativ afvigelse.
+* Valg af eksperimenter
+  
+I skal udføre mindst 2 eksperimenter omkring lys og bølger. Eksperimenterne skal tilsammen omhandle brugen af *gitterligningen* og *brydningsloven*.
+
+I de følgende afsnit er nogle korte introduktioner til mulige eksperimenter. I må meget gerne selv finde på andre eksperimenter.
+
+Husk at udarbejde jeres egne forsøgsbeskrivelser, efter endt forsøg. Beskriv, hvad I faktisk har gjort.
+
+#+begin_export latex
+\newpage
+#+end_export
+** Bestemmelse af bølgelængde af laser
+   
+*** Udstyr
+- Én laserpen (rød, grøn eller violet)
+- Ét optisk gitter (300, 600 eller 1200 linjer pr mm)
+- Lineal/målebånd/tommestok
+*** Fremgangsmåde
+- Opstil eksperimentet så det ligner nogenlunde det følgende:
+
+[[./img/boelgelaengde_laser.png]]
+
+- Mål afstanden mellem gitter og væg/skærm.
+- Mål afstanden mellem 0. orden og 1.orden. (Lav gerne et gennemsnit på begge sider af 0.orden.)
+      
+*** Databehandling
+- Beregn $\phi_1$ fra $\tan \left( \phi_1 \right) = \frac{x}{a}$.
+- Beregn $\lambda$ fra $\sin \left( \phi_{n} \right) = \frac{n \cdot \lambda}{d}$
+
+#+begin_export latex
+\newpage
+#+end_export
+** Bestemmelse af gitterkonstant for CD eller DVD
+*** Udstyr
+- Én laserpen (rød, grøn eller violet)
+- En CD eller DVD
+- Lineal/målebånd/tommestok
+*** Fremgangsmåde
+- Opstil eksperimentet så det ligner nogenlunde det følgende:
+
+[[./img/gitterkonstant_cd_dvd.png]]
+
+- Mål afstanden mellem CD/DVD og væg/skærm.
+- Mål afstanden mellem 0. orden og 1.orden. (Lav gerne et gennemsnit på begge sider af 0.orden.)
+
+*** Databehandling
+- Beregn $\theta_1$ fra $\tan \left( \theta_1 \right) = \frac{x_1}{l}$.
+- Beregn $d$ fra $\sin \left( \theta_{n} \right) = \frac{n \cdot \lambda}{d}$
+- Sammenlign gitterkonstanten for CD'en/DVD'en med de optiske gitre i laboratoriet.
+
+#+begin_export latex
+\newpage
+#+end_export
+** Bestemmelse af brydningsindeks for en væske
+*** Udstyr
+- Én laserpen (rød, grøn eller violet)
+- Et gennemsigtigt kar.
+- Mobilkamera
+*** Fremgangsmåde
+- Opstil eksperimentet så det ligner nogenlunde det følgende:
+
+#+attr_latex: :width 0.5\linewidth
+[[./img/brydningsindeks_vaeske.png]]
+
+- Tag et billede af laserlysets strålegang med mobilkameraet. Det skal være så vinkelret på udbredelsen som muligt.
+
+*** Databehandling
+- Overfør billedet til en computer.
+- Indsæt billedet i geogebra.
+- Opret en linje for væskeoverfladen.
+- Opret en vinkelret linje ift. væskeoverfladen.
+- Mål indfaldsvinkel og brydningsvinkel vha. geogebra.
+- Beregn $n$ ud fra $\frac{\sin(i)}{\sin(b)}=\frac{n_2}{n_1}$.
+      
+#+begin_export latex
+\newpage
+#+end_export
+** Bestemmelse af brydningsindeks for glas eller akryl
+
+*** Udstyr
+- Én laserpen (rød, grøn eller violet)
+- Et prisme/en klods af en eller anden form for glas eller akryl(plexiglas)
+- Mobilkamera
+*** Fremgangsmåde
+- Opstil eksperimentet så det ligner nogenlunde det følgende:
+
+#+attr_latex: :width 0.5\linewidth
+[[./img/brydningsindeks_glas_akryl.png]]
+
+- Tag et billede af laserlysets strålegang med mobilkameraet. Det skal være så vinkelret på udbredelsen som muligt.
+  
+*** Databehandling
+- Overfør billedet til en computer.
+- Indsæt billedet i geogebra.
+- Opret en linje for grænsefladen mellem luft og klods.
+- Opret en vinkelret linje ift. grænsefladen.
+- Mål indfaldsvinkel og brydningsvinkel vha. geogebra.
+- Beregn $n$ ud fra $\frac{\sin(i)}{\sin(b)}=\frac{n_2}{n_1}$.
+
+#+begin_export latex
+\newpage
+#+end_export
+

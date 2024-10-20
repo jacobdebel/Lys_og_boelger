@@ -1,0 +1,79 @@
+#+title: Lys og bølger
+#+subtitle: Konstruktion - Avancerede opgaver
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+
+* Opgave 1
+
+Lyset fra en natriumlampe indeholder en kraftigt gul dobbeltspektrallinje, hvor de to linjer har en
+bølgelængde på hhv. 589.0 nm og 589.6 nm.
+
+Lyset sendes nu igennem et gitter med 600 streger pr. mm. og afbøjningsstrålerne rammer en
+bagvedliggende væg. Den oprindelige lysstråle sendes vinkelret ind på både gitter og bagvæg.
+
+- I hvilke vinkler ses 1.ordens afbøjningerne? (Altså for begge bølgelængder.)
+
+For at kunne skelne de to dobbeltlinjer fra hinanden skal de være separeret med 4 mm.
+
+- Hvor stor en afstand skal der være mellem gitter og bagvæg, for at de to 1.ordens afbøjningsstråler netop er separeret med 4 mm.?
+
+* Opgave 2:
+
+Røntgenstråling er en del af det elektromagnetiske spektrum og repræsenterer et frekvensinterval fra $3 \cdot 10^{16}$ Hz til $3\cdot 10^{19}$ Hz.
+
+- Hvilket bølgelængdeinterval svarer ovenstående frekvensinterval til?
+
+Betragt nu røngtenstråling med en frekvens på $5.0\cdot 10^{18}$ Hz . Der ønskes et gitter, som kan
+udføre en 1.ordens afbøjning på 30 grader.
+
+- Bestem den nødvendige gitterkonstant for ovenstående gitter.
+
+- Redegør for, om det er muligt at producere det ønskede gitter, når den interatomare afstand i krystaller typisk er 1-2 Å ( Å = Ångstrøm = 0.1 nm = $10^{-10} m$).
+#+latex: \newpage
+
+* Opgave 3                                                      :kapopgave52:
+
+Med det formål at bestemme vands brydningsindeks fastgøres et optisk gitter på den ene endeflade af et kasseformet glaskar. På den anden endeflade anbringes et stykke papir som skærm. Afstanden mellem gitter og skærm er 40.2 cm.
+
+I et tomt kar sendes laserlys med bølgelængden 632.8 nm vinkelret gennem gitteret. Afstanden mellem de to førsteordenspletter på skærmen er da 21.0 cm.
+
+- Bestem gitterkonstanten.
+
+Der fyldes vand i karret, og afstanden mellem de to førsteordenspletter er nu 15.8 cm.
+
+- Beregn laserlysets bølgelængde i vand.
+
+- Bestem på grundlag af denne måling vandets brydningsindeks.
+
+* Opgave 4
+
+En lysstråle sendes vandret ind mod en plan glasklods, som danner en vinkel på $37^\circ$ med lodret. Glasset har et brydningsindeks på 1.66.
+
+[[./img/glasklods.png]]
+
+- Hvilken vinkel danner lysstrålen med vandret inde i glasset?
+
+- Hvilken vinkel danner strålen med vandret, når den er passeret ud igennem glasset igen?
+
+#+latex: \newpage
+* Opgave 5
+
+En person står ved en dam og betragter en fisk (punktet F) på bunden af dammen. Personens øje befinder sig i punktet A, som er 1.7 m over vandoverfladen.
+
+[[./img/dam.png]]
+
+- Skitsér strålegangen fra A til F.
+
+- Bestem den vandrette afstand, $d$, mellem fisken og personen, når personen ser fisken under en vinkel på $30^\circ$ med vandret, og dammen er 1.0 m dyb.

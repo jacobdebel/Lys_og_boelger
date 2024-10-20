@@ -1,0 +1,66 @@
+#+title: Lys og bølger
+#+subtitle: Refleksion - Eksperimenter
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+Nu er I nået til refleksionsfasen, som er den sidste del i forløbet. I skulle gerne være eksperter inden for lysets brydning og det optiske gitter, både hvad angår kendskab og anvendelse af de tilhørende fagudtryk og matematiske udledninger af brydningsloven og gitterligningen. Jeres nye viden skal i bruge til at designe og udføre eksperimenter.
+
+* Design af eksperimenter
+
+- I skal selv designe 1, 2 eller flere eksperimenter omkring lys, bølger og optik. Eksperimenterne skal tilsammen omhandle brugen af *gitterligningen* og *brydningsloven*.
+
+- Husk at udarbejde en fremgangsmåde, så det er tydeligt, hvordan I skal stille eksperimenterne op, og hvilke fysiske størrelser I skal måle på, samt hvordan I vil måle dem.
+
+* Udførelse af eksperimenter
+
+- I får ca. 1.5 time i laboratoriet til at udføre jeres eksperimenter.
+
+- Husk at notere alle relevante målinger.
+
+- Husk at tage billeder af jeres forsøgsstillinger, som kan bruges I jeres rapport.
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* Afrapportering
+
+I skal udarbejde en fysikrapport over jeres udførte eksperimenter. Afleveringsmappen ligger allerede på skolens it-platform. Husk følgende afsnit i rapporten:
+
+- *Forord (I kan også kalde det formål)*
+
+  I skal skrive, hvad formålet med eksperimenterne er, og I skal opskrive hypoteser, hvis I har sådanne.
+
+- *Teori*
+
+  Her skal I have udledninger og forklaringer af gitterligningen og brydningsloven med.
+
+- *Forsøgsbeskrivelse*
+
+  Her skal I omskrive jeres fremgangsmåde til en forsøgsbeskrivelse. I skal skrive, hvad I faktisk har gjort i laboratoriet. Skriv det på punktform, men med hele sætninger. Indsæt også billeder af jeres opstillinger, eller hvis I ser noget, som er vigtigt for eksperimenterne.
+
+- *Resultater*
+
+  Her noteres eksperimentets "rå" data. Det kan være målte værdier sat op i en tabel, eller en graf over de samme værdier, hvis der er mange datapunkter. Det kan også være tale om billeder taget under eksperimentets udførelse, som senere skal bearbejdes.
+
+- *Databehandling*
+
+  Det er i dette afsnit, at alle beregninger på baggrund af data fra resultatafsnittet udføres.
+
+- *Diskussion*
+
+  Her sammenholdes de opnåede resultater af beregningerne med hypotesen fra formålsafsnittet. Det er også her, at der er plads til at fortolke på eksperimenterne og komme ind på eventuelle fejlkilder og usikkerheder. (Hvis der er tale om simple fejlkilder, så skal de ikke stå her. Så skal I udføre eksperimentet igen.)
+
+- *Konklusion*
+        
+  Her skal hypotesen, resultater af beregninger samt diskussionen skrives sammen. Hvis man i hypotesen vil bestemme en talværdi for en bestemt fysisk størrelse, så skal tallet også være med her i konklusionen sammen med en relativ afvigelse.

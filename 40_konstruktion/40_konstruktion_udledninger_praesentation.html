@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8"/>
+<title>Lys og bølger</title>
+<meta name="author" content="Jacob Debel"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h2>Lys og bølger</h2><h3>Konstruktion</h3><h4>Jacob Debel</h4><h4>Fysik C &amp; B</h4>
+</section>
+
+<section>
+<section id="slide-org1869ef5" data-background="">
+<h2 id="org1869ef5">Udledning af formler</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcc7cf11" data-background="">
+<h2 id="orgcc7cf11">Brydningsloven aka Snells lov</h2>
+<div class="outline-text-2" id="text-orgcc7cf11">
+</div>
+</section>
+<section id="slide-org12c7426" data-background="">
+<h3 id="org12c7426">Hvad ved vi?</h3>
+
+<div id="orge0f439f" class="figure">
+<p><img src="./img/laser_luft_glas_i_og_b.png" alt="laser_luft_glas_i_og_b.png" />
+</p>
+</div>
+
+<div>
+\begin{align*}
+\boxed{\frac{\sin(i)}{\sin(b)} = n_{12}=\frac{n_2}{n_1} = \frac{v_1}{v_2}}
+\end{align*}
+
+</div>
+
+</section>
+<section id="slide-org67aafbd" data-background="">
+<h3 id="org67aafbd">Hvordan kommer vi derhen?</h3>
+<div style="display: grid; grid-template-columns: 50% auto;">
+<div>
+<div style="font-size: 60%;">
+<div>
+\begin{align*}
+\Delta ABC: \sin (i) = \frac{3 \lambda_1}{\left| AB \right|} \\
+\Delta ABD: \sin (b) = \frac{3 \lambda_2}{\left| AB \right|} 
+\end{align*}
+
+</div>
+</div>
+</div>
+
+<div>
+
+<div id="org6c2fd9e" class="figure">
+<p><img src="./img/brydning.png" alt="brydning.png" />
+</p>
+</div>
+</div>
+</div>
+
+
+</section>
+<section data-background="">
+<h3>Hvordan kommer vi derhen?</h3>
+
+<div style="display: grid; grid-template-columns: 50% auto;">
+<div>
+<div style="font-size: 60%;">
+<div>
+\begin{align*}
+\frac{\Delta ABC}{\Delta ABD} : \frac{\sin (i)}{\sin (b)} &= \frac{\frac{3 \lambda_1}{\left| AB \right|}}{\frac{3\lambda_2}{\left| AB \right|}} \\
+\frac{\sin (i)}{\sin (b)} &= \frac{\lambda_1}{\lambda_2}
+\end{align*}
+
+</div>
+</div>
+</div>
+
+<div>
+
+<div id="org3de743e" class="figure">
+<p><img src="./img/brydning.png" alt="brydning.png" />
+</p>
+</div>
+</div>
+</div>
+
+
+</section>
+<section data-background="">
+<h3>Hvordan kommer vi derhen?</h3>
+
+<div>
+\begin{align*}
+\frac{\sin (i)}{\sin (b)} &= \frac{\lambda_1}{\lambda_2} \\
+v_1 &= \lambda_1 \cdot f \\
+v_2 &= \lambda_2 \cdot f \\
+\frac{\sin (i)}{\sin (b)} &= \frac{v_1}{v_2} 
+\end{align*}
+
+</div>
+
+</section>
+<section data-background="">
+<h3>Hvordan kommer vi derhen?</h3>
+
+<div>
+\begin{align*}
+\frac{\sin (i)}{\sin (b)} &= \frac{v_1}{v_2} \\
+n_1 &= \frac{c}{v_1}\to v_1 = \frac{c}{n_1} \\
+n_2 &= \frac{c}{v_2}\to v_2 = \frac{c}{n_2} \\
+\frac{\sin (i)}{\sin (b)} &= \frac{\frac{c}{n_1}}{\frac{c}{n_2}} = \frac{n_2}{n_1}
+\end{align*}
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org8f16c2e" data-background="">
+<h2 id="org8f16c2e">Gitterligningen</h2>
+<div class="outline-text-2" id="text-org8f16c2e">
+</div>
+</section>
+<section id="slide-org38b7974" data-background="">
+<h3 id="org38b7974">Hvad ved vi?</h3>
+
+<div id="orgeb34cfb" class="figure">
+<p><img src="./img/gitterligningen.png" alt="gitterligningen.png" width="70%" />
+</p>
+</div>
+
+<div>
+\begin{align*}
+\boxed{\sin(\phi_n) = \frac{n \cdot \lambda}{d}}
+\end{align*}
+
+</div>
+
+</section>
+<section id="slide-org590bae5" data-background="">
+<h3 id="org590bae5">Hvordan kommer vi derhen?</h3>
+<div style="display: grid; grid-template-columns: 50% auto;">
+<div>
+
+<div id="orgc1167fc" class="figure">
+<p><img src="./img/gitterligning_udledning_1.png" alt="gitterligning_udledning_1.png" />
+</p>
+</div>
+
+
+<div id="org0a26a9d" class="figure">
+<p><img src="./img/gitterligning_udledning_2.png" alt="gitterligning_udledning_2.png" />
+</p>
+</div>
+</div>
+
+<div>
+<div>
+\begin{align*}
+\sin \left( \phi_n \right) = \frac{n \cdot \lambda}{d}
+\end{align*}
+
+</div>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcb45c7e" data-background="">
+<h2 id="orgcb45c7e">Avancerede opgaver</h2>
+<ul>
+<li>Nu skal der tænkes, mens der regnes!</li>
+<li>Arbejd med opgaverne i <a href="../41_konstruktion_opgaver/41_konstruktion_opgaver.pdf">41_konstruktion_opgaver.pdf</a>.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org7af6ad9" data-background="">
+<h2 id="org7af6ad9">Udled selv formler</h2>
+<div class="outline-text-2" id="text-org7af6ad9">
+</div>
+</section>
+<section id="slide-org87dcf70" data-background="">
+<h3 id="org87dcf70">Brydningsloven (Snells lov)</h3>
+
+<div id="orgb218647" class="figure">
+<p><a href="../42_konstruktion_brydning/42_Konstruktion_brydning.pdf" height="500"><img src="img/brydningsloven_udled.png" alt="brydningsloven_udled.png" height="500" /></a>
+</p>
+</div>
+
+</section>
+<section id="slide-org5137c03" data-background="">
+<h3 id="org5137c03">Gitterligningen</h3>
+
+<div id="org438567c" class="figure">
+<p><a href="../43_konstruktion_gitter/43_Konstruktion_gitter.pdf" height="500"><img src="img/gitterligningen_udled.png" alt="gitterligningen_udled.png" height="500" /></a>
+</p>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'slide',
+transitionSpeed: 'default',
+slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true,
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>

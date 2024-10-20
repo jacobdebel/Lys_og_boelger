@@ -1,0 +1,85 @@
+#+title: Lys og bølger
+#+subtitle: Rekonstruktion - Bølger
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* $\lambda$, $f$, $T$, $v$ og $c$
+
+- Opskriv fagordene og enhederne for de nævnte fysiske størrelser.
+  
+#+attr_latex: :environment longtable :align |l|p{10cm}|l|
+|-----------+--------+-------|
+| Symbol    | Fagord | Enhed |
+|-----------+--------+-------|
+| $\lambda$ |        |       |
+| $f$       |        |       |
+| $T$       |        |       |
+| $v$       |        |       |
+| $c$       |        |       |
+|-----------+--------+-------|
+
+
+* Bølgetoppe, bølgedale og bølgelængde
+  
+#+latex: \begin{minipage}{0.3\linewidth}
+Angiv henholdsvis
+- bølgetoppe
+- bølgedale
+- bølgelængde
+- udbredelsesretning
+
+på figuren.
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/transversalboelge.png]]
+#+latex: \end{minipage}
+
+* Interferens
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er interferens?
+
+- Brug figuren.
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/Interferens.png]]
+#+latex: \end{minipage}
+
+\vfill
+
+* Bølgetyper
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvilke bølgetyper er der?
+
+- Eksempler fra naturen?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.7\linewidth}
+#+latex: \end{minipage}
+
+
+\vfill
+
+* Det elektromagnetiske spektrum
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- I hvilket bølgelængdeinterval ligger synligt lys i EM-spektret?
+
+- Hvilke bølgerlængder hører til de farver, vi mennesker kan se?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.7\linewidth}
+#+latex: \end{minipage}

@@ -1,0 +1,190 @@
+#+title: Lys og bølger
+#+subtitle: Rekonstruktion
+#+author: Jacob Debel
+#+date: Fysik C & B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Rekonstruktion
+- Introduktion af fagbegreber.
+- Elever tegner og skriver selv.
+
+* Bølger generelt
+
+** $\lambda$, $f$, $T$, $v$ og $c$
+
+#+attr_html: :width 100%
+[[./img/groen_laser.png]]
+#+reveal: split:t
+
+#+attr_html: :width 100%
+[[./img/roed_laser.png]]
+
+** $\lambda$, $f$, $T$, $v$ og $c$
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-08-18 16:40:16
+#+attr_html: :width 100%
+[[./img/generel_boelge.png]]
+
+** Bølger på en snor
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+
+** Bølgeinterferens 
+
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+
+** Bølgetyper
+
+Longitudinalbølger
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-08-18 16:54:27
+#+attr_html: :width 60%
+[[./img/longitudinalboelger.png]]
+
+#+attr_reveal: :frag (appear)
+- På en fjeder som her.
+- Lydbølger.
+- Trykbølger.
+
+** Bølgetyper
+
+Transversalbølger
+   
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 70%
+[[./img/ringboelger.png]]
+
+#+attr_html: :width 70%
+[[./img/em_boelger.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_reveal: :frag (appear)
+- Elektromagnetiske bølger.
+- snorbølger.
+- Bølger på overfladen af vand.
+#+reveal_html: </div>
+#+reveal_html: </div>
+   
+** Det ElektroMagnetiske spektrum
+
+#+attr_html: :height 500
+[[./img/em_spektrum.jpg]]
+
+* Brydning og Refleksion
+
+** Brydning og refleksion
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- $c$
+- $v$
+- $n$
+- $v_1$
+- $v_2$
+- $i$
+- $b$
+- Brydning
+- Refleksion
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Interferens og det optiske gitter
+
+** Plane bølger
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 100%
+[[./img/ring_og_plane_boelger.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 100%
+[[./img/plane_boelger.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Interferens og Huygens' princip
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 50%
+[[./img/fra_plan_til_ringboelger.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+*** Huygens' princip
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+
+#+begin_quote
+Ethvert punkt i en bølgefront er udgangspunkt for en kuglebølge. Den nye bølgefront dannes ved superposition af disse kuglebølger.
+#+end_quote
+
+Hvordan udtaler man det egentlig?
+#+begin_export html
+<audio src="materials/huygens_96.mp3" controls>
+</audio>
+#+end_export
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/huygens_princip.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Det optiske gitter
+  
+** Det optiske gitter
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/laser_gitter.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/laser_gitter_detalje.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+

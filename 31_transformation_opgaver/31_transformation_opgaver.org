@@ -1,0 +1,138 @@
+#+title: Lys og bølger
+#+subtitle: Transformation - Simple opgaver
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* Opgave 1
+[[./img/boelge_opgave.png]]
+
+- Bestem ud fra figuren bølgelængde og amplitude for bølgen.
+  
+* Opgave 2
+
+Lyset fra en helium-neon-laser har en bølgelængde på 632.8 nm.
+
+- En e-coli-bakterie er typisk 2 $\mu m$ lang. Hvor mange bølgelængder af laserens lys svarer det til?
+
+- Et atom har typisk en diameter på 200 pm. Hvor mange atomer kan der ligge ved siden af hinanden på 632.8 nm?
+  
+* Opgave 3
+
+- Beregn bølgelængden af lys med frekvensen $11.3 \cdot 10^{14}$ Hz.
+  
+* Opgave 4
+
+En lysstråle sendes med indfaldsvinklen $i=32^{\circ}$ fra luft ind i et stykke rudeglas.
+
+- Beregn brydningsvinklen $b$ i glasset.
+
+* Opgave 5
+
+En lysstråle sendes med en indfaldsvinkel på $74,9^{\circ}$ ned gennem en væskeoverflade.
+
+Brydningsvinklen er $45.3^{\circ}$.
+
+- Beregn væskens brydningsindeks.
+
+* Opgave 6
+
+Lys fra et udladningsrør med hydrogen sendes gennem et optisk gitter med 560 spalter pr. mm.
+
+- Beregn afbøjningsvinklen $\phi_1$ til den røde linje ($\lambda = 656$ nm) i 1. orden.
+
+* Opgave 7
+
+Gult lys fra en såkaldt natriumlampe sendes gennem et optisk gitter med 300 spalter pr. mm. Afbøjningsvinklen $\phi_5$ til 5. orden måles til $58.6^{\circ}$.
+
+- Bestem lysets bølgelængde.
+  
+* Opgave 8
+
+Ved et gittereksperiment sendes lys med bølgelængden 400 nm gennem et gitter. På en skærm 3.4 m fra gitteret måles afstanden mellem centralpletten og lyspletten i 1. orden til 136 mm.
+
+- Beregn gitterkonstanten i det anvendte gitter.
+
+* Opgave 9
+
+En lysstråle har en bølgelængde på 650 nm i vakuum.
+
+1. Hvilken farve har lysstrålen? 
+
+2. Hvad er lysstrålens frekvens i vakuum?
+
+3. Hvad er lysets hastighed i en væske, hvis brydningsindeks ved denne bølgelængde er 1.47?
+
+4. Hvad er lysets bølgelængde i væsken?
+
+* Opgave 10
+
+En lysstråle sendes fra luft hen mod en glasplade med et brydningsindeks på 1.66. Lysstrålens vinkel i forhold med glasoverfladen er $47.5^{\circ}$.
+
+1. Beregn indfaldsvinklen.
+
+2. Beregn brydningsvinklen.
+
+* Opgave 11 
+
+En lysstråle sendes fra luft ind i plexiglas, som vist på figuren. Brydningsindekset for plexiglas kan slås op til at have værdien 1.4914.
+
+[[./img/Plexiglas.png]]
+
+1. Indtegn indfaldsvinkel og brydningsvinkel på figuren.
+
+2. Beregn brydningsvinklen.
+
+* Opgave 12
+
+En He-Ne-laser (Helium-Neon-laser) udsender lys med bølgelængden 632.8 nm mod et gitter med ukendt gitterkonstant.
+Afbøjningsvinklen til 1. orden er $30^\circ$.
+
+1. Bestem gitterkonstanten.
+
+2. Hvor mange linjer pr. mm. har gitteret?
+
+* Opgave 13
+
+En kviksølvslampe udsender bl.a. en kraftig blå spektrallinje med en bølgelængde på 435.8 nm. Dette blå lys sendes ind mod et gitter med 660 linjer pr. mm. 
+
+1. Hvad er den størst mulige afbøjningsorden?
+
+2. Bestem alle de mulige afbøjningsvinkler.
+
+* Facitliste
+*Opgave 1:* $\lambda=8cm$, amplituden er 2 cm.
+
+*Opgave 2:* 3 hele bølgelængder (3.16) - 3164 atomer ved siden af hinanden.
+
+*Opgave 3:* $\lambda = 265 nm$
+
+*Opgave 4:* $b=21^{\circ}$
+
+*Opgave 5:* $n=1.36$
+
+*Opgave 6:* $\phi_1 =21.6^{\circ}$
+
+*Opgave 7:* $\lambda = 569 \,nm$
+
+*Opgave 8:* $d=0.010 \,mm$ 
+
+*Opgave 9:* *1.* Rød, *2.* $f=4.62 \cdot 10^{14}$ Hz, *3.* $v=2.04 \cdot 10^8 m/s$, *4.* $\lambda = 441.5 nm$.
+
+*Opgave 10:* *1.* $i=42.5^{\circ}$, *2.* $b=24.02^{\circ}$
+
+*Opgave 11:* *1.* Tegning , *2.* $b=35.5^{\circ}$
+
+*Opgave 12:* *1.* d = 1256.6 nm, *2.* 790 linjer pr. mm.
+
+*Opgave 13:* *1.* $n_{max} = 3$, *2.* $\phi_1 = 16.7^{\circ}$, $\phi_2 = 35.1^{\circ}$, $\phi_3 = 59.6^{\circ}$

@@ -1,0 +1,75 @@
+#+title: Lys og bølger
+#+subtitle: Rekonstruktion - Det optiske gitter
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* Plane bølger
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er plane bølger?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/plan_boelge.png]]
+#+latex: \end{minipage}
+
+
+
+#+latex: \vfill
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvornår kan ringbølger(kuglebølger) betragtes som plane bølger?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/ring_og_plane_boelger.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+
+#+latex: \newpage
+* Huygens princip
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvordan lyder Huygens' princip?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/huygens.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+
+* Det optiske gitter
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er $d$, $n$ og $\phi_n$ og deres enheder?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+
+#+latex: \end{minipage}
+
+
+#+latex: \vfill
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvordan indtegnes bølgefronterne til 0., 1. og 2. ordens afbøjningerne?
+
+- Hvor skal $d$, $\phi_0$, $\phi_1$ og $\phi_2$ være på figuren?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/gitter.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill

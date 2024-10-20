@@ -1,0 +1,109 @@
+#+title: Lys og bølger
+#+subtitle: Rekonstruktion - Brydning
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* $c$
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er fagord,  værdi og enhed for $c$?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+Lyset bevæger sig igennem luft, som kan betragtes som vakuum.
+[[./img/laser_luft_luft.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+* $n$ og $v$
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er fagordene og enhederne for $n$ og $v$?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/laser_glas_glas.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+#+latex: \newpage
+
+
+* $v_1$ og $v_2$
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvad er $v_1$ og $v_2$?
+- Hvilken er størst af de to?
+- Hvad sker der med lysets hastighed, når det passerer fra materiale 1 til materiale 2?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+Lyset bevæger sig fra et materiale, luft, til et andet materiale, glas.
+[[./img/laser_luft_glas.png]]  
+#+latex: \end{minipage}
+
+
+#+latex: \vfill
+
+* $i$ og $b$
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvor er $i$ og $b$ på figuren?
+- Hvad er fagordene for $i$ og $b$?
+- Hvor måles de fra?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/laser_luft_glas_vinkel.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+#+latex: \newpage
+
+* Lysets brydning
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvordan forklarer man, at lys brydes (skrifter regning), når det går fra et materiale til et andet?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/laser_luft_glas_i_og_b.png]]
+#+latex: \end{minipage}
+
+#+latex: \vfill
+
+
+
+* Totalrefleksion
+
+#+latex: \begin{minipage}{0.3\linewidth}
+- Hvordan forklarer man, hvornår totalrefleksion kan opstå?
+- Hvor er grænsevinklen for totalrefleksion på figuren?
+#+latex: \end{minipage}
+#+latex: \vline
+#+latex: \begin{minipage}{0.68\linewidth}
+[[./img/totalrefleksion_1.png]]
+[[./img/totalrefleksion_2.png]]
+#+latex: \end{minipage}
+
+
+# [[file:img/totalrefleksion_1.png]]  
+# [[file:img/totalrefleksion_2.png]]
+
+# - Forklar med et par sætninger, hvornår totalrefleksion kan opstå.
+  
+# \vfill
+
+# - Angiv hvad grænsevinklen for totalrefleksion er på figuren.
+  
+# \vfill
+
+

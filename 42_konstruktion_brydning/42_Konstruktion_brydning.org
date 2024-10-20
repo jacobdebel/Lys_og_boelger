@@ -1,0 +1,34 @@
+#+title: Lys og bølger
+#+subtitle: Konstruktion - Brydning
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+På nedenstående tegning[fn::Kilde: Benoni og Elverkjær, FysikABbogen.] ses, hvordan lys brydes i overgangen mellem to materialer.
+
+[[./img/brydning.png]]
+
+- Tegn de markerede trekanter (blå) tydeligere op.
+
+- Angiv henholdsvis de rette vinkler og indfaldsvinklen og brydningsvinklen i de to fremkomne trekanter.
+
+- Tæl hvor mange hele bølgelængder lyset udbreder sig med i hver af trekanterne.
+
+På baggrund af ovenstående tegning og jeres skitser, *skal I nu udlede brydningsloven*.
+
+
+- I skal bruge så korte og præcise formuleringer, som I magter. Husk at bruge de korrekte fagudtryk.
+- *I må gerne bruge jeres noter, men ikke bogen.*
+- *Tegninger, skitser og udledninger skal afleveres.*
+
+
+

@@ -1,0 +1,46 @@
+#+title: Lys og bølger
+#+subtitle: Inspirationsfase - Simuleringer
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Introduktion
+I mangel på ledige fysiklokaler anvender denne inspirationsfase en række simuleringsprogrammer i stedet for rigtigt forsøgsudstyr, samt lidt klippe-klister-fysik. :) 
+
+* Lys og optiske fænomener
+
+- Første runde :: Det gælder om at *lege*. I skal eksperimentere med de i alt seks forskellige simuleringer og observere, hvad der sker med lysetstrålerne og bølgerne igennem deres passager i de forskellige opstillinger. Der er ingen regler for, hvad I skal gøre med simuleringerne, men I skal udforske dem så meget som muligt.
+
+- Anden runde :: I denne runde skal I koncentrere jer om én af forsøgsopstillingerne/simuleringerne. I skal sørge for, at der er en eller flere fysiske størrelser, der kan måles på, og som kan ændres direkte eller indirekte igennem simuleringen. Det kan f.eks. være vinkler, farver, udsving, tider og mønstre.
+
+  I skal aflevere en skriftlig sproglig beskrivelse af, hvad der sker med lyset/bølgerne undervejs i jeres valgte forsøg/simulering. Ingen brug af bøger eller internetkilder, kun jeres egne sproglige beskrivelser. Det er tilladt at tage screenshots af simuleringerne og tegne og forklare ud fra dem. *Jeres beskrivelser skal afleveres på lectio under den tilhørende opgave i pdf-format.*
+  
+* Simuleringer
+
+I begge simuleringer skal I eksperimentere med alle tre dele.
+
+** Afbøjning af lys
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+** Bølgeinterferens
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_da.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export

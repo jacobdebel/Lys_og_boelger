@@ -1,0 +1,125 @@
+#+title: Lys og bølger
+#+subtitle: og deres sammenhæng med sneglehuse
+#+author: Jacob Debel
+#+date: Fysik C & B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* Traditionel undervisning vendt på hovedet
+  #+attr_html: :width 30% :center t
+  [[./img/smiley_paa_hovedet.png]]
+* "Klassisk" undervisning (i fysik) 
+
+** Første lektion - nyt emne
+#+attr_reveal: :frag (appear)
+- Læreren står og holder en forelæsning.
+- Med fokus på teorien.
+- Eleverne har aldrig set det før.
+- Kan måske ikke følge med.
+- Der bruges nye ukendte fagord.
+- Kan det overhovedet bruges til noget?
+
+** Anden lektion - opgaveregning
+
+#+attr_reveal: :frag (appear)
+- Nu skal der regnes opgaver!
+- Men vi kender knap nok til formlerne.
+- Hvad betyder alle krussedullerne i ligningerne egentlig?
+- Er de her opgaver ikke meget svære?
+
+** Tredje lektion - forsøg
+
+#+attr_reveal: :frag (appear)
+- Nu skal vi i lab.
+- Vi skal eksperimentelt bestemme en fysisk konstant, som læreren har fortalt om.
+- Vi skal også skrive et teoriafsnit.
+- Men har vi egentlig selv helt styr på teorien?
+- Det var vist kun læreren, som havde helt styr på det.
+
+* Sneglehusmodellen 
+  
+  Fokus på sproglig udvikling i NV fag.
+  
+  #+DOWNLOADED: /tmp/screenshot.png @ 2019-08-13 21:59:49
+  #+attr_html: :width 30% :center t
+  [[./img/sneglehus_overblik.png]]
+  
+** Inspiration
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/sneglehus_inspiration.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Undersøgende arbejde.
+- Eksperimenter.
+- Hverdagssprog.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Rekonstruktion
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/sneglehus_rekonstruktion.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Fagbegreber introduceres.
+- Elever tegner og skriver selv.
+#+reveal_html: </div>
+#+reveal_html: </div>
+   
+** Transformation
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/sneglehus_transformation.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Færdige formler introduceres.
+- Simple regneopgaver.
+- Læseøvelser.
+- Simple forsøg.
+- Lærer: fagsprog - Elever: begyndende fagsprog.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+** Konstruktion
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/sneglehus_konstruktion.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Teoretiske udledninger.
+- Problemopgaver.
+- Komplekse eksperimenter.
+- Rapportskrivning.
+- Fagsprog for både lærer og elever.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Refleksion
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/sneglehus_refleksion.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Elever kan arbejde selvstændigt.
+- Elever kan udlede nye sammenhænge.
+- Refleksion over konsekvenser og over arbejdet.
+- Præcist og systematisk fagsprog.
+#+reveal_html: </div>
+#+reveal_html: </div>

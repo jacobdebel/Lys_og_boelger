@@ -1,0 +1,66 @@
+#+title: Lys og bølger
+#+subtitle: Transformation
+#+author: Jacob Debel
+#+date: Fysik C & B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* Præsentation af formler
+
+** Bølger generelt
+
+\begin{align*}
+f &= \frac{1}{T} \\
+v &= \lambda \cdot f = \frac{\lambda}{T} \\
+c &= \lambda \cdot f = \frac{\lambda}{T} \quad \text{(I vakuum)}
+\end{align*}
+
+** Brydning
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 80%;">
+\begin{align*}
+c &= 3 \cdot 10^8 m/s \\
+n_1 &= \frac{c}{v_1} \\
+n_{12} &= \frac{n_2}{n_1}\\
+\frac{\sin(i)}{\sin(b)} &= n_{12}=\frac{n_2}{n_1} = \frac{v_1}{v_2}
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/laser_luft_glas_i_og_b.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Det optiske gitter
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 80%;">
+\begin{align*}
+\sin(\phi_n) &= \frac{n \cdot \lambda}{d} \\
+\tan(\phi_n) &= \frac{x}{L} \\
+d &= \frac{1}{\text{antal linjer pr. mm}} 
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/gitterligningen.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Opgaver
+
+** Simple træningsopgaver
+
+- Find filen [[../31_transformation_opgaver/31_transformation_opgaver.pdf][31_transformation_opgaver.pdf]].
+- Den indeholder 13 opgaver omkring lys og bølger.
+- Der er en facitliste sidst i dokumentet.

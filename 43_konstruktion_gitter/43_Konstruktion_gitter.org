@@ -1,0 +1,31 @@
+#+title: Lys og bølger
+#+subtitle: Konstruktion - Det optiske gitter
+#+author: Jacob Debel
+#+date: Fysik C & B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+På de nedenstående figurer skal I tegne/indsætte de følgende fysiske størrelser:
+
+$\lambda$, $2 \lambda$, $d$, $\phi_1$, $\phi_2$, normal, plane bølger, ny bølgefront, udbredelsesretning.
+
+Størrelserne må gerne bruges flere gange, hvis det passer ind.
+
+[[./img/gitterudledning.png]]
+
+- På baggrund af ovenstående skitser og de førnævnte fysiske størrelser *skal I nu udlede gitterligningen* med en så kort og præcis formulering, som I magter. Husk at bruge de rette fagudtryk.
+
+- *I må gerne bruge jeres noter, men ikke bogen.*
+  
+- *Jeres skitser med indsatte størrelser og jeres udledninger skal afleveres.*
+
+
