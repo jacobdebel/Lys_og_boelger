@@ -14,6 +14,10 @@
 * Rekonstruktion
 - Introduktion af fagbegreber.
 - Elever tegner og skriver selv.
+- Eleverne kan bruge følgende notepapirer til inspiration:
+  - [[../21_rekonstruktion_boelger/21_rekonstruktion_boelger.pdf][21_rekonstruktion_boelger.pdf]]
+  - [[../22_rekonstruktion_brydning/22_rekonstruktion_brydning.pdf][22_rekonstruktion_brydning.pdf]]
+  - [[../23_rekonstruktion_gitter/23_rekonstruktion_gitter.pdf][23_rekonstruktion_gitter.pdf]]
 
 * Bølger generelt
 
