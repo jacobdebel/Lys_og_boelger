@@ -17,7 +17,7 @@
 
 * Opgave 1
 
-Lyset fra en natriumlampe indeholder en kraftigt gul dobbeltspektrallinje, hvor de to linjer har en
+Lyset fra en natriumlampe indeholder en kraftig gul dobbeltspektrallinje, hvor de to linjer har en
 bølgelængde på hhv. 589.0 nm og 589.6 nm.
 
 Lyset sendes nu igennem et gitter med 600 streger pr. mm. og afbøjningsstrålerne rammer en
